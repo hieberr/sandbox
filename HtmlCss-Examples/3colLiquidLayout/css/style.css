@@ -1,0 +1,59 @@
+
+#wrapper {
+ background-color: #aa0000;
+  padding: 10px 10px 10px 10px;
+}
+
+#content {
+  background-color: #dada00;
+  padding: 20px 0 20px 20px;
+}
+
+#content h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+#col1{
+  width: 25%;
+}
+
+#col2{
+  width: 50%;
+}
+
+#col3{
+  width: 25%;
+}
+
+.box{
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 0 20px 0 20px;
+  border:2px solid;
+  border-radius:16px;
+}
+
+#content:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*add padding to right of all but last column*/
+.column {
+  float: left;
+  padding: 20px 20px 20px 20px;
+}
+
+
+/*switch boxmodel to border-box for everything*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
